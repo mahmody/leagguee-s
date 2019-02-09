@@ -1075,11 +1075,7 @@ const e = new Discord.RichEmbed()
 
 });
 
-const Discord = require('discord.js');
-const client = new Discord.Client();
-const fs = require("fs");
-const Canvas = require("canvas");
-const jimp = require("jimp");
+
 var config = {
   events: [
     {type: "CHANNEL_CREATE", logType: "CHANNEL_CREATE", limit: 4 , delay: 4000},
